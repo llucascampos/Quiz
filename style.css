@@ -1,0 +1,54 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: gray;
+}
+.quiz{
+	margin: 10% 20%;
+	padding: 5%;
+	background-color: white;
+	width: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid;
+	box-shadow: -10px -10px 15px #000; 
+}
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+	color: red;
+}
+.questions{
+	font-size: 1.3em;
+	width: 100%;
+	padding:30px 0px;
+	border-bottom: solid 1px;
+	text-align: center;
+}
+.question h2{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.btn{                      /* estilo dos botoes*/
+	font-size: 20px;
+	margin-top: 50px;
+	width: 50%;
+	height: 40px;
+	border: black;
+	background: green;
+	box-shadow:  0px 5px 15px #000;
+}
+#result{
+	display: none;
+	margin: auto;
+	width: 500px;
+	padding: 50px 0px;
+}
+#btn_retry{
+	display: none; /* para esonder a div que mostrará o resultado*/
+	margin: auto;
+}
